@@ -1,0 +1,12 @@
+# program to input personal infomation from user and display a precise introduction
+name= input("enter name: ")
+age=int(input("enter age :"))
+city=input("enter the city in which you are living: ")
+college=input("enter the name of your college :")
+hobby=input("enter your hobby :")
+print(" Introduction :")
+print(" Hie , My name is ",name)
+print( " I am ",age,end="" )
+print("  years old and i live in ",city )
+print( " I study at",college )
+print(" My hobby is to",hobby)
